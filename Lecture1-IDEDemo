@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://enterprise-demo.orangehrmlive.com/" />
+<title>Lecture1-IDEDemo</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Lecture1-IDEDemo</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/symfony/web/index.php/auth/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//html/head/title</td>
+	<td>OrangeHRM</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='divUsername']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeRandom</td>
+	<td>id=txtUsername</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>sysadmin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>sysadmin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>sysadmin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>sysadmin</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnAdd</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnAdd</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=leaveType_operational_country</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=leaveType_operational_country</td>
+	<td>label=India</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=leaveType_operational_country</td>
+	<td>label=India</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//option[@id='operational_country'])[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=leaveType_txtLeaveTypeName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=leaveType_txtLeaveTypeName</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=leaveType_txtLeaveTypeName</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=saveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=welcome</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=welcome</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
