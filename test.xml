@@ -1,0 +1,6 @@
+<testdata>
+	<LoginTest>
+		<test username ="abc" password ="abc"/>
+		<test username ="sysadmin" password ="sysadmin"/>
+    </LoginTest>
+</testdata>

@@ -19,7 +19,7 @@
 <tr>
 	<td>verifyText</td>
 	<td>//html/head/title</td>
-	<td>1OrangeHRM</td>
+	<td>OrangeHRM</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -35,6 +35,11 @@
 	<td>clickAndWait</td>
 	<td>id=btnLogin</td>
 	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=welcome</td>
+	<td>regexp:^[a-zA-Z]</td>
 </tr>
 </tbody></table>
 </body>

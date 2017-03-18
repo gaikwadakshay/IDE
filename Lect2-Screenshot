@@ -19,7 +19,12 @@
 <tr>
 	<td>verifyText</td>
 	<td>//html/head/title</td>
-	<td>1OrangeHRM</td>
+	<td>OrangeHRM</td>
+</tr>
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>/Users/shreenivas_khedkar/Desktop/seleniumwork/IDE/failure.png</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>

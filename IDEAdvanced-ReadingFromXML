@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="https://enterprise-demo.orangehrmlive.com/" />
-<title>Lect1</title>
+<title>IDEAdvanced-ReadingFromXML</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Lect1</td></tr>
+<tr><td rowspan="1" colspan="3">IDEAdvanced-ReadingFromXML</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -17,23 +17,33 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>//html/head/title</td>
-	<td>1OrangeHRM</td>
+	<td>loadTestData</td>
+	<td>file:///Users/shreenivas_khedkar/Desktop/seleniumwork/IDE/test.xml</td>
+	<td></td>
+</tr>
+<tr>
+	<td>while</td>
+	<td>!testdata.EOF()</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=txtUsername</td>
-	<td>sysadmin</td>
+	<td>${username}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=txtPassword</td>
-	<td>sysadmin</td>
+	<td>${password}</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>id=btnLogin</td>
+	<td>nextTestData</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>endWhile</td>
+	<td></td>
 	<td></td>
 </tr>
 </tbody></table>
